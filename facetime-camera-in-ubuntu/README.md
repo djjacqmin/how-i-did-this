@@ -1,4 +1,4 @@
-# Fix iSight Camera on Ubuntu Linux
+# Fix Facetime HD Camera on Ubuntu Linux
 ## Problem Statement
 I could not use cv2.VideoCapture(0) in python on Ubuntu Linux, and ultimately determined that the system could not see the MacBook Pro iSight camera.
 
