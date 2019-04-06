@@ -33,8 +33,9 @@ Install additional dependencies:
 sudo apt-get install linux-headers git kmod libssl-dev libelf-dev checkinstall
 ```
 
-Build the kernal module:
+Go up one directory to the make folder for the kernel module. Build the kernel module:
 ```
+cd ..
 make
 ```
 
