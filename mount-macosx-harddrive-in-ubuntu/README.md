@@ -1,6 +1,6 @@
-# Fix iSight Camera on Ubuntu Linux
+# Access MacOSX Hard Drive in Ubuntu
 ## Problem Statement
-I could not use cv2.VideoCapture(0) in python on Ubuntu Linux, and ultimately determined that the system could not see the MacBook Pro iSight camera.
+I would liket to access my MacOSX hard drive in Ubuntu.
 
 ## System Parameters
 * Ubuntu 18.04.2 LTS 
@@ -8,7 +8,7 @@ I could not use cv2.VideoCapture(0) in python on Ubuntu Linux, and ultimately de
 ## Solution
 
 ### Install APFS FUSE Driver for Linux
-The first step in being able to resolve this issue is being able to mount the Apple hard drive in linux so that we can access the camera driver. Newer Macs use the APFS file system. The [APFS FUSE Driver for Linux](https://github.com/sgan81/apfs-fuse) will allow us to mount the Apple hard drive.
+Newer Macs use the APFS file system. The [APFS FUSE Driver for Linux](https://github.com/sgan81/apfs-fuse) will allow us to mount the Apple hard drive.
 
 Install the pre-requisites:
 ```
@@ -60,6 +60,8 @@ Volume 3 90E3F4B7-912E-4DEA-9D2B-85D3DA3CD649
 ---------------------------------------------
 Role:               VM
 Name:               VM (Case-insensitive)
+Role:               VM
+Name:               VM (Case-insensitive)
 Capacity Consumed:  3221274624 Bytes
 FileVault:          No
 
@@ -67,4 +69,9 @@ FileVault:          No
 
 ## Mount the Mac hard drive
 
-
+Mount the Mac hard drive. The second command will require a password to decrypt the Macintosh HD volume:
+```
+sudo mkdir /MacOSX
+sudo ./apfs-fuse /dev/sda2 /MacOSX/
+```
+Ta-da!
