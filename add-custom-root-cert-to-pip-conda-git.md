@@ -21,5 +21,40 @@ The Stack Overflow post discusses how to get an up-to-date CA bundle online. I h
 ```
 C:\Anaconda3\pkgs\certifi-2019.3.9-py37_0\Lib\site-packages\certifi\cacert.pem
 ```
+### Add the UWHealth Root Certificate to cacert.pem
+Copy `cacert.pem to a new location:
+```
+> mkdir %USERPROFILE%\certs
+> copy cacert.pem %USERPROFILE%\certs\
+```
 
+Next, navigate to your new directory and open the file. Copy the UWHealth root certificate at the end of the file. You can get this certificate from Craig. 
+* You can copy the certficiate to a new line if you want to, but make sure there are no blank lines between the bulk of the text and the appended certificate.
+* Make sure their are no blank lines within the appended certificate.
+* Make sure the file ends with a single blank line.
 
+Finally, change the filename to `ca-bundle.crt`:
+```
+move %USERPROFILE%\certs\cacert.pem %USERPROFILE%\certs\ca-bundle.crt
+```
+
+### Enable SSL Verification for git
+The following commands enable SSL verification for `git`, and set the certificate file path.
+```
+> git config --global http.sslVerify true
+> git config --global http.sslCAInfo %USERPROFILE%\certs\ca-bundle.crt
+```
+
+### Enable SSL Verification for pip
+The following commands set the certificate file path for `pip`, then check it.
+```
+> pip config set global.cert %USERPROFILE%\certs\ca-bundle.crt
+> pip config list
+```
+
+### Enable SSL Verification for conda
+The following commands set the certificate file path for `conda`, then check it.
+```
+> conda config --set ssl_verify %USERPROFILE%\certs\ca-bundle.crt
+> conda config --show ssl_verify
+```
