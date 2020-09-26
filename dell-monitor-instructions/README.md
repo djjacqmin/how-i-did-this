@@ -21,7 +21,7 @@ For laptops that do not have a USB-C port, the wireless keyboard, mouse and webc
     1. On the bottom of the mouse, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
     2. Press the small button on the bottom of the mouse until the number **1** is lit.
 3. Connect the keyboard to the laptop
-    1. On the top right surface of the keyboard, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
+    1. On the top right edge of the keyboard, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
     2. Above the insert, home and page up keys there are three numbered keys. Press the **1** key.
 4. Change the keyboard layout to Windows by holding fn+P (the function key plus the letter P key) for three seconds 
 5. (Optional) Connect the webcam to the USB-A port on the side of the monitor.
@@ -32,7 +32,7 @@ For laptops that do not have a USB-C port, the wireless keyboard, mouse and webc
     1. On the bottom of the mouse, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
     2. Press the small button on the bottom of the mouse until the number **1** is lit.
 3. Connect the keyboard to the laptop
-    1. On the top right surface of the keyboard, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
+    1. On the top right edge of the keyboard, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
     2. Above the insert, home and page up keys there are three numbered keys. Press the **1** key.
 4. Change the keyboard layout to MacOS by holding fn+O (the function key plus the letter O key) for three seconds
 5. (Optional) Connect the webcam to the USB-A port on the side of the monitor.
@@ -43,7 +43,7 @@ For laptops that do not have a USB-C port, the wireless keyboard, mouse and webc
     1. On the bottom of the mouse, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
     2. Press the small button on the bottom of the mouse until the number **2** is lit.
 3. Connect the keyboard to the laptop
-    1. On the top right surface of the keyboard, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
+    1. On the top right edge of the keyboard, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
     2. Above the insert, home and page up keys there are three numbered keys. Press the **2** key.
 4. Change the keyboard layout to MacOS by holding fn+O (the function key plus the letter O key) for three seconds
 5. (Optional) Connect the webcam to a USB-A port on the laptop itself.
