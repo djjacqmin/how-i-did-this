@@ -23,7 +23,7 @@ For laptops that do not have a USB-C port, the wireless keyboard, mouse and webc
 3. Connect the keyboard to the laptop
     1. On the top right surface of the keyboard, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
     2. Above the insert, home and page up keys there are three numbered keys. Press the **1** key.
-4. Change the keyboard layout to Windows by holding fn+P (the function key plus the letter P key) for three seconds [![A diagram showing how to switch keyboard layouts](/images/image_switch_OS.png "A diagram showing how to switch keyboard layouts")]
+4. Change the keyboard layout to Windows by holding fn+P (the function key plus the letter P key) for three seconds 
 5. (Optional) Connect the webcam to the USB-A port on the side of the monitor.
 
 ### Connecting a new Mac Laptop with USB-C ports
@@ -52,3 +52,10 @@ For laptops that do not have a USB-C port, the wireless keyboard, mouse and webc
 
 ### The keyboard won't connect
 If the keyboard won't connect, try pressing the numbered button again. When it is correctly connected, you should see a solid white light. If it is blinking, you might need to press it again. 
+
+### The keyboard keys seem off
+Did you change the keyboard to the correct layout?
+* fn+O for MacOS
+* fn+P for Windows and Linux
+
+![A diagram showing how to switch keyboard layouts](images/image_switch_OS.png "A diagram showing how to switch keyboard layouts")
