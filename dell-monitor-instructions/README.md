@@ -26,7 +26,7 @@ For laptops that do not have a USB-C port, the wireless keyboard, mouse and webc
 4. Change the keyboard layout to Windows by holding fn+P (the function key plus the letter P key) for three seconds 
 5. (Optional) Connect the webcam to the USB-A port on the side of the monitor.
 
-### Connecting a new Mac Laptop with USB-C ports
+### Connecting a new Mac Laptop (with USB-C port)
 1. Connect the USB-C to USB-C cable to the laptop
 2. Connect the mouse to the laptop
     1. On the bottom of the mouse, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
@@ -37,7 +37,7 @@ For laptops that do not have a USB-C port, the wireless keyboard, mouse and webc
 4. Change the keyboard layout to MacOS by holding fn+O (the function key plus the letter O key) for three seconds
 5. (Optional) Connect the webcam to the USB-A port on the side of the monitor.
 
-### Connecting an old Mac Laptop without USB-C ports
+### Connecting an old Mac Laptop (without USB-C ports)
 1. Connect the HDMI to HDMI cable to the laptop
 2. Connect the mouse to the laptop
     1. On the bottom of the mouse, move the power switch to the on position. The on position is the position where the exposed surface under the switch is green instead of red.
