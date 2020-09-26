@@ -6,12 +6,12 @@ Multiple laptops from different vendors (Dell, Apple), with multiple OS (Windows
 The Dell monitor has the following connected to its various ports:
 * USB-C to USB-C cable for connection to laptops with USB-C ports
 * HDMI to HDMI cable for connection to laptops without USB-C ports
-* Two Bluetooth transponder, one for the wireless keyboard and one for the mouse, connected to USB-A ports
+* Two Bluetooth transponders, one for the wireless keyboard and one for the mouse, connected to USB-A ports
 * (Optional) The Logitech webcam connected to a USB-A port. This may be detached and moved to a laptop without USB-C ports.
 
 The USB-C to USB-C cable can carry power to the laptop. It also carries data from any other USB devices connected to the monitor. When a laptop is connected via the USB-C cable, it also connects to the wireless keyboard, mouse and webcam through the same cable. The USB-C cable also carries the video from the laptop to the monitor.
 
-For laptops that do not have a USB-C port, the wireless keyboard, mouse and webcam must be connected in another way. The keyboard and mouse may be connected directly via Bluetooth. The webcam must be connected directly but moving the USB-A connector to the laptop.
+For laptops that do not have a USB-C port, the wireless keyboard, mouse and webcam must be connected in another way. The keyboard and mouse may be connected directly via Bluetooth. The webcam must be connected directly by connecting its USB-A connector cable to the laptop.
 
 ## Connection Instructions
 
